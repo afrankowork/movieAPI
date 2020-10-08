@@ -1,0 +1,137 @@
+body {
+   
+    background-color: #517687; 
+}
+
+nav {
+    opacity: .8;
+    font-weight: bolder;
+    
+}
+.navbar-nav {
+   margin-right: auto;
+   margin-left: auto;
+}
+
+#nav-link {
+    color: 194256;
+    
+}
+
+#header2 {
+    text-align: center;
+    font-size: 250%;
+    border: solid 1px #194256;
+    background-color: #194256;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    margin-top: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    
+}
+
+
+
+
+#searchBox{
+    display: flex;
+    background-color: #194256;
+    border: solid 1px #194256;
+    border-radius: 10px;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 1%;
+    align-items: center;
+    
+    padding: 20px;
+    
+}
+
+
+
+#searchText {
+    background-color: #517687;
+    color: whitesmoke;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+i {
+   margin-right: auto;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color: whitesmoke;
+ }
+
+ 
+
+ #movieInfo {
+    background-color: #194256;
+    
+ }
+
+ #movieTitlePoster {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px   rgba(0,0,0,0.75);
+  
+
+ }
+
+ #movieTitlePoster:hover {
+   transform: scale(1.1);
+ }
+
+ #movieCon {
+    
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 5%;
+    margin-top: 5%;  
+}
+
+ #movieDetail {
+    word-wrap: break-word;
+    color: whitesmoke;
+    
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+
+ }
+
+ 
+
+
+ #movieContainer {
+    margin-top: 5%; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 3%;
+     
+ }
+
+ #movieContainer .card {
+     padding: 2%;
+     margin: 1%;
+ }
+
+ .card-body {
+   display: flex;
+   flex-direction: column;
+ }
+
